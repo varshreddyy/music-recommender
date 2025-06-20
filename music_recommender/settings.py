@@ -11,11 +11,7 @@ SECRET_KEY = 'your-secret-key'  # replace with env var in production
 DEBUG = True
 
 # Allow local and Render deployment host
-ALLOWED_HOSTS = [
-    '127.0.0.1',
-    'localhost',
-    'https://music-recommender-hwvf.onrender.com',  # <-- Add your Render URL here
-]
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 INSTALLED_APPS = [
