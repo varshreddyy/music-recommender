@@ -10,3 +10,5 @@ services:
         value: django-insecure-ora7mq3c!zgb)8)vgmb8j_j2trn8y0&y*l$q=1uy(9&teab=0y
       - key: DEBUG
         value: False
+        PYTHON_VERSION=3.10
+DJANGO_SETTINGS_MODULE=music_recommender.settings
