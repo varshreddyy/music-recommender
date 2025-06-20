@@ -157,7 +157,7 @@ SECRET_KEY = 'django-insecure-ora7mq3c!zgb)8)vgmb8j_j2trn8y0&y*l$q=1uy(9&teab=0y
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['music-recommender-hwvf.onrender.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'your-app-name.onrender.com']
 
 
 # Application definition
